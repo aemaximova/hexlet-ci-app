@@ -1,5 +1,6 @@
 # Example app for CI Hexlet course
 
+![Workflow Status](https://github.com/aemaximova/hexlet-ci-app/workflows/check/badge.svg)
 Starting boilerplate of [Strapi](https://strapi.io/) application
 
 ## System requirements
