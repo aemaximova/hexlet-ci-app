@@ -4,20 +4,13 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Repository
       - uses: actions/checkout@v3
-      
-      - name: Setup Node.js
       - uses: actions/setup-node@v3
 
-      - name: setup
       - run: make setup
 
-      - name: start
       - run: make start
 
-      - name: run test
       - run: make test
 
-      - name: run lint test
       - run: make lint
